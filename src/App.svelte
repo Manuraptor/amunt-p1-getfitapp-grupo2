@@ -1,6 +1,7 @@
 <script>
   import logo from "./assets/imagenes/logo.png";
-  import MainText from "./components/MainText.svelte";
+  import MainText from "./components/Cover.svelte";
+
 </script>
 
 <main>
@@ -21,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: #0BCBF6;
   }
   nav {
     padding: 20px;
@@ -30,7 +31,7 @@
 
   span{
     margin: 10px;
-    font-style: bold;
+    font-style: italic;
   }
   img {
     width: 140px;

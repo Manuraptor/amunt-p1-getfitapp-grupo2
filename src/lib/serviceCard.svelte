@@ -18,7 +18,7 @@
 <style>
 
     .contenedor {
-        width: 25%;
+        width: 599px;
         border: solid black 1px;
     }
 
@@ -39,6 +39,13 @@
         margin-left: 20px;
 
     }
+    h2{
+        font-weight: bold;
+        font-size: 120px;
+    }
+
+
+
 
 
 </style>

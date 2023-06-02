@@ -25,30 +25,31 @@
                          texto="Trabaja tu salud a través de los mejores tratamientos holísticos de fisioterapia en Barcelona."
                          imagen={imagen2}/>
         </div>
-        <style>
-            .tarjetas {
 
-                display: flex;
-                flex-wrap: wrap;
-                column-gap: 4%;
-            }
-
-
-            .textoPrincipal {
-                font-family: Arial;
-                font-size: x-large;
-                justify-content: center;
-                align-items: center;
-                display: flex;
-            }
-
-            h2 {
-                margin-left: 0;
-            }
-
-        </style>
-
-
+    </div>
 </section>
+
+<style>
+    .tarjetas {
+
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 4%;
+    }
+
+
+    .textoPrincipal {
+        font-family: Arial;
+        font-size: x-large;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    h2 {
+        margin-left: 0;
+    }
+
+</style>
 
 

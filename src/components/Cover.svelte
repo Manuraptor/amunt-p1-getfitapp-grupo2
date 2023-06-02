@@ -14,7 +14,7 @@
 
     p {
         max-width: 650px;
-        margin: 120px auto;
+        margin: 40px auto;
         text-align: center;
         font-size: large;
     }

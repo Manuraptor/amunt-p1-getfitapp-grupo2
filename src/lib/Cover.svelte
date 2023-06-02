@@ -3,21 +3,14 @@
 </script>
 
 <main>
-    <p>
+    <h4>
         Somos <span class="getfit">GetFitEasy</span>, una cadena de asesoramiento de
         salud y bienestar. En nuestro local ofrecemos un espacio de maquinas y
         hacemos clases y seguimientos con los mejores especialistas.
-    </p>
+    </h4>
     <img src={imagen} alt="imagen1">
 </main>
 <style>
-
-    p {
-        max-width: 650px;
-        margin: 40px auto;
-        text-align: center;
-        font-size: large;
-    }
 
     .getfit {
         color: rgb(86, 195, 235);
@@ -30,6 +23,11 @@
         flex-direction: column;
         align-items: center;
     }
+
+    h4 {
+        width: 80%;
+    }
+
     img {
         width: 80%;
 

@@ -29,24 +29,16 @@
     }
 
     .textotarjeta {
-        width: 80%;
-        padding: 10px;
+        padding: 20px;
 
     }
 
     h1 {
         font-weight: bold;
-        margin-left: 20px;
 
     }
-    h2{
-        font-weight: bold;
-        font-size: 120px;
+    p{
+        font-size: x-large;
     }
-
-
-
-
-
 </style>
 

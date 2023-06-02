@@ -9,12 +9,12 @@
 <section>
     <div class="descripcion">
         <h1>Servicios</h1>
-        <p>En GetFitEasy , además de actividades dirigidas, ofrecemos a nuestros abonados los
-            servicios necesarios para<br>
+        <h4>En GetFitEasy , además de actividades dirigidas, ofrecemos a nuestros abonados los
+            servicios necesarios para
             ejercitar el cuerpo, así como mejorar su estilo de vida y bienestar. Aquí te presentamos los
-            servicios que<br>
+            servicios que
             encontrarás
-            en nuestro gimnasio de Barcelona.
+            en nuestro gimnasio de Barcelona.</h4>
         <div class="tarjetas">
             <ServiceCard titulo="CLASES DE NATACIÓN" , texto="Las clases de natación en Barcelona  que ofrece GetFitEasy están dirigidas a la iniciación y perfeccionamiento
             de la técnica." imagen={imagen3}/>
@@ -33,17 +33,10 @@
     .tarjetas {
 
         display: flex;
-        flex-wrap: wrap;
-        column-gap: 4%;
+        gap: 6%;
     }
 
 
-    p {
-
-        font-size: x-large;
-        text-align: center;
-
-    }
 
     h2 {
         margin-left: 0;

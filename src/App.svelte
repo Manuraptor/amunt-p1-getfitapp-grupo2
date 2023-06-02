@@ -35,7 +35,7 @@
 
     span {
         margin: 10px;
-        font-style: italic;
+        font-weight: bold;
     }
 
     img {

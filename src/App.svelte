@@ -1,7 +1,7 @@
 <script>
     import Servicios from './lib/servicios.svelte'
     import logo from "./assets/imagenes/logo.png";
-    import MainText from "./components/Cover.svelte";
+    import MainText from "./lib/Cover.svelte";
 
 </script>
 

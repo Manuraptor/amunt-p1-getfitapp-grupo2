@@ -1,1 +1,0 @@
-Manu y telma estuvieron aquiç

@@ -8,7 +8,7 @@
     import {Router, Link, Route} from "svelte-routing";
 
     import Login from "./lib/login.svelte";
-    import Contactos from "./lib/Contactos.svelte";
+
 
 </script>
 

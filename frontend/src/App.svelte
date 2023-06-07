@@ -1,23 +1,31 @@
 <script>
-    import Servicios from './lib/servicios.svelte'
+    // @ts-nocheck
+
+    import Servicios from "./lib/servicios.svelte";
     import logo from "./assets/imagenes/logo.png";
     import MainText from "./lib/Cover.svelte";
+
+    import { Router, Link, Route } from "svelte-routing";
+
+    import Login from "./lib/login.svelte";
 
 </script>
 
 <main>
-    <header>
-        <img src={logo} alt="logo"/>
-        <nav>
-            <span>Servicios</span>
-            <span>Tarifas</span>
-        </nav>
-    </header>
-    <MainText/>
+    <Router>
+        <header>
+            <img src={logo} alt="logo" />
+            <nav>
+                <span>Servicios</span>
+                <span>Tarifas</span>
+                <span>Login</span>
+            </nav>
+        </header>
+        <MainText />
 
-    <Servicios/>
+        <Servicios />
+    </Router>
 </main>
-
 
 <style>
     header {
@@ -25,12 +33,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #0BCBF6;
+        background-color: #0bcbf6;
     }
 
     nav {
         padding: 20px;
-
     }
 
     span {

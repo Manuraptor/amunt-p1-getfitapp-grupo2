@@ -16,12 +16,12 @@
             encontrarás
             en nuestro gimnasio de Barcelona.</h4>
         <div class="tarjetas">
-            <ServiceCard titulo="CLASES DE NATACIÓN" , texto="Las clases de natación en Barcelona  que ofrece GetFitEasy están dirigidas a la iniciación y perfeccionamiento
+            <ServiceCard titulo="CLASES DE NATACIÓN"  texto="Las clases de natación en Barcelona  que ofrece GetFitEasy están dirigidas a la iniciación y perfeccionamiento
             de la técnica." imagen={imagen3}/>
-            <ServiceCard titulo="ENTRENADOR PERSONAL" ,
+            <ServiceCard titulo="ENTRENADOR PERSONAL" 
                          texto="Si deseas sacar el máximo partido a tu entrenamiento físico, te ofrecemos un servicio de entrenador personal en el que se te asesora y orienta"
                          imagen={imagen1}/>
-            <ServiceCard titulo="TRATAMIENTOS DE FISIOTERAPIA" ,
+            <ServiceCard titulo="TRATAMIENTOS DE FISIOTERAPIA" 
                          texto="Trabaja tu salud a través de los mejores tratamientos holísticos de fisioterapia en Barcelona."
                          imagen={imagen2}/>
         </div>

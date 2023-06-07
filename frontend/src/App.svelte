@@ -5,25 +5,31 @@
     import logo from "./assets/imagenes/logo.png";
     import MainText from "./lib/Cover.svelte";
 
-    import { Router, Link, Route } from "svelte-routing";
+    import {Router, Link, Route} from "svelte-routing";
 
     import Login from "./lib/login.svelte";
+    import Contactos from "./lib/Contactos.svelte";
 
 </script>
 
 <main>
     <Router>
         <header>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo"/>
             <nav>
+                <span><Link to="/">Inicio</Link></span>
                 <span>Servicios</span>
                 <span>Tarifas</span>
-                <span>Login</span>
+                <span><Link to="/login">Login</Link></span>
             </nav>
         </header>
-        <MainText />
-
-        <Servicios />
+        <Route path="/">
+            <MainText/>
+            <Servicios/>
+        </Route>
+        <Route path="/login">
+            <Login />
+        </Route>
     </Router>
 </main>
 

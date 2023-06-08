@@ -1,10 +1,10 @@
 <script>
     // @ts-nocheck
-    import Servicios from "./lib/servicios.svelte";
+    import Servicios from "./lib/Servicios.svelte";
     import logo from "./assets/imagenes/logo.png";
     import MainText from "./lib/Cover.svelte";
     import {Router, Link, Route} from "svelte-routing";
-    import Login from "./lib/login.svelte";
+    import Login from "./lib/Login.svelte";
     import ListaDeClientes from "./lib/ListaDeClientes.svelte";
 </script>
 

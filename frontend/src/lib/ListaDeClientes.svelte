@@ -1,6 +1,7 @@
 <script>
    
-import  clientes from "./clientes.svelte";
+
+import Clientes from "./Clientes.svelte";
     
 </script> 
 
@@ -13,7 +14,7 @@ import  clientes from "./clientes.svelte";
     <p>Email</p>
     </div>
   
-  <Cliente name="Nelly Dominguez/Av/Diagonal 124" telefono="698675345" fecha de nacimiento="18/09/1983" email="nelly.dom@gmail.com"/>
+  <Clientes name="Nelly Dominguez/Av/Diagonal 124" telefono="698675345" fecha de nacimiento="18/09/1983" email="nelly.dom@gmail.com"/>
   
 
   <style>

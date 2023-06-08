@@ -1,5 +1,5 @@
 
-    <script>
+<script>
         import { navigate } from "svelte-routing";
         function onSubmit() {
         login().then(() => {
@@ -79,3 +79,4 @@ input{
     </style>
 
 
+>>>>>>> 8eab8c9224246824ecd4ae8ddf06f919c3ddacf0

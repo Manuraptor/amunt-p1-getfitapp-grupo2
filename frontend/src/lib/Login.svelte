@@ -1,5 +1,8 @@
 
 <script>
+
+    /* import {user} from "../stores/user"*/
+
         import { navigate } from "svelte-routing";
         function onSubmit() {
         login().then(() => {
@@ -32,8 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border:solid black 1px;
-
+    /*border:solid black 1px;*/
 
 }
 .caja{

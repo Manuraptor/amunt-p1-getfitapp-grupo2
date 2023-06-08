@@ -6,6 +6,9 @@
     import {Router, Link, Route} from "svelte-routing";
     import Login from "./lib/Login.svelte";
     import ListaDeClientes from "./lib/ListaDeClientes.svelte";
+
+
+    /*import {user} from "../stores"*/
 </script>
 
 <main>

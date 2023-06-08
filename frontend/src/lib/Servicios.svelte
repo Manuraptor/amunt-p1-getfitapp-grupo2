@@ -21,7 +21,7 @@
             <ServiceCard titulo="ENTRENADOR PERSONAL" 
                          texto="Si deseas sacar el máximo partido a tu entrenamiento físico, te ofrecemos un servicio de entrenador personal en el que se te asesora y orienta"
                          imagen={imagen1}/>
-            <ServiceCard titulo="TRATAMIENTOS DE FISIOTERAPIA" 
+            <ServiceCard titulo="TRATAMIENTOS DE FISIOTERAPIA"
                          texto="Trabaja tu salud a través de los mejores tratamientos holísticos de fisioterapia en Barcelona."
                          imagen={imagen2}/>
         </div>
@@ -38,9 +38,7 @@
 
 
 
-    h2 {
-        margin-left: 0;
-    }
+    
 
     section {
 

@@ -1,35 +1,58 @@
-<script>
-   
 
-import Clientes from "./Clientes.svelte";
-    
-</script> 
+        <script>
 
+        import image1 from "../assets/imagenes/clientes/persona1.jpeg"
+        import image2 from "../assets/imagenes/clientes/persona2.jpg"
+        import image3 from "../assets/imagenes/clientes/persona3.jpeg"
+        import Clientes from "./Clientes.svelte"
 
-<div class="clientes">   
-    
-    <p>Cliente</p>
-    <p>Telefono</p>
-    <p>Fecha de nacimiento</p>
-    <p>Email</p>
-    </div>
-  
-  <Clientes name="Nelly Dominguez/Av/Diagonal 124" telefono="698675345" fecha de nacimiento="18/09/1983" email="nelly.dom@gmail.com"/>
-  
+        </script> 
+        
+       
+        <main>
+                  
+        
+            <table>
+                <thead>
+                  <tr>
+                    <th>Cliente</th>
+                    <th></th><!-- Espacio vacío -->
+                    <th>Teléfono</th>
+                    <th>Fecha de nacimiento</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
 
-  <style>
-    .clientes{
-        display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    } 
+                    <Clientes customer={image1} 
+                              name="Nelly Dominguez Av/Diagonal 124" 
+                              telNumber="698675345" date="18/09/1983" 
+                              email="nelly.dom@gmail.com"/>
 
-    p{
-        font-weight:  400;
+                    <Clientes customer={image2}
+                              name="Manuel Rodrigues C/Valencia 45" 
+                              telNumber="678125436" date="01/12/1995" 
+                              email="manu.rod@gmail.com"/>
+
+                    <Clientes customer={image3} 
+                              name="Federico Martinez C/Mallorca 226" 
+                              telNumber="695456098" 
+                              date="25/07/1985" 
+                              email="fed.martm@gmail.com"/>
+                              
+                              </tbody>
+                </table>
+             
+        </main>
+        
+          <style>
+        
+            table{
+               display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-items: center;
+            } 
+        
             
-    }
-
-
-
-
-  </style>
+          </style>

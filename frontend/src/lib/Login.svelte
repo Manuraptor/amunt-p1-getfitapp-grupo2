@@ -1,32 +1,33 @@
-
 <script>
+<<<<<<< HEAD
 
     /* import {user} from "../stores/user"*/
 
         import { navigate } from "svelte-routing";
         function onSubmit() {
+=======
+    import {navigate} from "svelte-routing";
+
+    function onSubmit() {
+>>>>>>> fde7aabfd556891fee689892fa619d6e5256d86f
         login().then(() => {
-            navigate("/success", { replace: true });
+            navigate("/success", {replace: true});
         });
 
     }
-        let nombre ="";
-        let contrasenya ="";
+
+    let email = "";
+    let contrasenya = "";
 </script>
-<div class="contenedor">
-    <div class="caja">
-        <h1>LOGIN</h1>
-    <form class="content">
-        <label>Nombre</label>
-        <input type="text" bind:value={nombre} required /><br><br>
-        <label>Contraseña</label>
-        <input type="text" bind:value={contrasenya} required /><br>
+<div>
+    <h1>Login</h1>
+    <form>
+        <input type="text" bind:value={email} required placeholder="Email"/>
+        <input type="text" bind:value={contrasenya} required placeholder="Contraseña"/>
         <button type="submit">Enviar</button>
-
-
     </form>
-        </div>
 </div>
+<<<<<<< HEAD
     <style>
 .contenedor{
     width: 1500px;
@@ -36,48 +37,49 @@
     align-items: center;
     justify-content: center;
     /*border:solid black 1px;*/
+=======
+<style>
 
-}
-.caja{
-    margin-top: 15px;
-    width:600px;
-    height:599px;
-    border:solid  1px;
-    display: grid;
-    grid-template-columns: 1fr ;
+    div {
+       max-width: 640px;
+        margin: 130px auto;
+        border: 1px solid black;
+    }
 
-}
-h1{
-    margin-bottom: 70px;
-    margin-left: 250px;
-}
+>>>>>>> fde7aabfd556891fee689892fa619d6e5256d86f
 
-
-        button {
-            width: 200px;
-            height: 70px;
-            border-radius:7px;
-            background: #0bcbf6;
-            margin-bottom:100px;
-            text-align: center;
+    h1 {
+        margin: 70px;
+        text-align: center;
+    }
 
 
+    button {
+        width: 200px;
+        height: 70px;
+        border-radius: 7px;
+        background-color: #18a0fb;
+        color: white;
+        margin: 70px;
+        text-align: center;
+    }
 
+    input {
+        width: 500px;
+        height: 70px;
+        margin: 15px 0;
+        border-radius: 3px;
+        padding: 15px;
+    }
 
-        }
-input{
-    width: 380px;
-    height: 70px;
-}
-.content{
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    }
 
-}
-
-    </style>
+</style>
 
 
 

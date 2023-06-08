@@ -1,5 +1,5 @@
 <script>
-    import ServiceCard from "./serviceCard.svelte"
+    import ServiceCard from "./ServiceCard.svelte"
     import imagen1 from "../assets/imagenes/fotoservicios/1.png"
     import imagen2 from "../assets/imagenes/fotoservicios/2.png"
     import imagen3 from "../assets/imagenes/fotoservicios/3.png"

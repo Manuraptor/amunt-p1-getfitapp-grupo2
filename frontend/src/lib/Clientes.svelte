@@ -14,7 +14,7 @@
         <table>
             <thead>
                 <tr>
-                  <th>{customer}</th>
+                  <th><img src={customer}></th>
                   <th></th><!-- Espacio vacío -->
                   <th>{name}</th>
                   <th>{telNumber}</th>

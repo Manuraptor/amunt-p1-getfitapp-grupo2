@@ -2,7 +2,7 @@
         <script>
 
         import image1 from "../assets/imagenes/clientes/persona1.jpeg"
-        import image2 from "../assets/imagenes/clientes/persona2.jpeg"
+        import image2 from "../assets/imagenes/clientes/persona2.jpg"
         import image3 from "../assets/imagenes/clientes/persona3.jpeg"
         import Clientes from "./Clientes.svelte"
 
@@ -29,7 +29,7 @@
                               telNumber="698675345" date="18/09/1983" 
                               email="nelly.dom@gmail.com"/>
 
-                    <Clientes customer={image2} 
+                    <Clientes customer={image2}
                               name="Manuel Rodrigues C/Valencia 45" 
                               telNumber="678125436" date="01/12/1995" 
                               email="manu.rod@gmail.com"/>

@@ -11,7 +11,6 @@
     import Login from "./lib/login.svelte";
     import ListaDeClientes from "./lib/ListaDeClientes.svelte";
 
-pu
 </script>
 
 <main>

@@ -20,6 +20,7 @@
         <input type="text" bind:value={contrasenya} /><br>
         <button>Enviar</button>
 
+
     </form>
         </div>
 </div>
@@ -38,8 +39,8 @@
 .caja{
     margin-top: 15px;
     width:600px;
-    height:400px;
-    border:solid red 1px;
+    height:599px;
+    border:solid  1px;
     display: grid;
     grid-template-columns: 1fr ;
 
@@ -48,18 +49,31 @@ h1{
     margin-bottom: 70px;
     margin-left: 250px;
 }
-form{
-    margin-bottom: 180px;
-    border: solid green 1px;
-}
+
 
         button {
-            width: 300px;
+            width: 200px;
+            height: 70px;
             display: flex;
-            align-items: center;
+            border-radius:7px;
+            background: #0bcbf6;
+            margin-bottom:100px;
+            align-content: center;
+
+
+
+
         }
 input{
     width: 380px;
+    height: 70px;
+}
+.content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
     </style>

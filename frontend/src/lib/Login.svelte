@@ -1,81 +1,65 @@
-
 <script>
-        import { navigate } from "svelte-routing";
-        function onSubmit() {
+    import {navigate} from "svelte-routing";
+
+    function onSubmit() {
         login().then(() => {
-            navigate("/success", { replace: true });
+            navigate("/success", {replace: true});
         });
 
     }
-        let nombre ="";
-        let contrasenya ="";
+
+    let nombre = "";
+    let contrasenya = "";
 </script>
-<div class="contenedor">
-    <div class="caja">
-        <h1>LOGIN</h1>
-    <form class="content">
-        <label>Nombre</label>
-        <input type="text" bind:value={nombre} required /><br><br>
-        <label>Contraseña</label>
-        <input type="text" bind:value={contrasenya} required /><br>
+<div>
+    <h1>Login</h1>
+    <form>
+        <input type="text" bind:value={nombre} required placeholder="Nombre"/>
+        <input type="text" bind:value={contrasenya} required placeholder="Contraseña"/>
         <button type="submit">Enviar</button>
-
-
     </form>
-        </div>
 </div>
-    <style>
-.contenedor{
-    width: 1500px;
-    height: 819px;
-    margin-left: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border:solid black 1px;
+<style>
+
+    div {
+       max-width: 640px;
+        margin: 130px auto;
+        border: 1px solid black;
+    }
 
 
-}
-.caja{
-    margin-top: 15px;
-    width:600px;
-    height:599px;
-    border:solid  1px;
-    display: grid;
-    grid-template-columns: 1fr ;
-
-}
-h1{
-    margin-bottom: 70px;
-    margin-left: 250px;
-}
+    h1 {
+        margin: 70px;
+        text-align: center;
+    }
 
 
-        button {
-            width: 200px;
-            height: 70px;
-            border-radius:7px;
-            background: #0bcbf6;
-            margin-bottom:100px;
-            text-align: center;
+    button {
+        width: 200px;
+        height: 70px;
+        border-radius: 7px;
+        background-color: #18a0fb;
+        color: white;
+        margin: 70px;
+        text-align: center;
+    }
 
+    input {
+        width: 500px;
+        height: 70px;
+        margin: 15px 0;
+        border-radius: 3px;
+        padding: 15px;
+    }
 
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+    }
 
-        }
-input{
-    width: 380px;
-    height: 70px;
-}
-.content{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-    </style>
+</style>
 
 
 

@@ -15,10 +15,10 @@
         <h1>LOGIN</h1>
     <form class="content">
         <label>Nombre</label>
-        <input type="text" bind:value={nombre} /><br><br>
+        <input type="text" bind:value={nombre} required /><br><br>
         <label>Contraseña</label>
-        <input type="text" bind:value={contrasenya} /><br>
-        <button>Enviar</button>
+        <input type="text" bind:value={contrasenya} required /><br>
+        <button type="submit">Enviar</button>
 
 
     </form>
@@ -54,11 +54,10 @@ h1{
         button {
             width: 200px;
             height: 70px;
-            display: flex;
             border-radius:7px;
             background: #0bcbf6;
             margin-bottom:100px;
-            align-content: center;
+            text-align: center;
 
 
 

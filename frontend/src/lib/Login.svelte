@@ -8,13 +8,13 @@
 
     }
 
-    let nombre = "";
+    let email = "";
     let contrasenya = "";
 </script>
 <div>
     <h1>Login</h1>
     <form>
-        <input type="text" bind:value={nombre} required placeholder="Nombre"/>
+        <input type="text" bind:value={email} required placeholder="Email"/>
         <input type="text" bind:value={contrasenya} required placeholder="Contraseña"/>
         <button type="submit">Enviar</button>
     </form>

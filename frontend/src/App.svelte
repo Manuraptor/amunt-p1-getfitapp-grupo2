@@ -1,5 +1,4 @@
 <script>
-<<<<<<< HEAD
   
 
     import Servicios from "./lib/servicios.svelte";
@@ -13,15 +12,6 @@
 
 
 
-=======
-    // @ts-nocheck
-    import Servicios from "./lib/Servicios.svelte";
-    import logo from "./assets/imagenes/logo.png";
-    import MainText from "./lib/Cover.svelte";
-    import {Router, Link, Route} from "svelte-routing";
-    import Login from "./lib/Login.svelte";
-    import ListaDeClientes from "./lib/ListaDeClientes.svelte";
->>>>>>> 6a130303b6c0f786dd8620a3e428a7d7c63a6480
 </script>
 
 <main>

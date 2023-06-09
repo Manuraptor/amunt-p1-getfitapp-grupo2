@@ -8,11 +8,8 @@
     import Login from "./lib/login.svelte";
     import ListaDeClientes from "./lib/ListaDeClientes.svelte";
 
-<<<<<<< HEAD
 
     /*import {user} from "../stores"*/
-=======
->>>>>>> fde7aabfd556891fee689892fa619d6e5256d86f
 </script>
 
 <main>
@@ -39,6 +36,7 @@
         </Route>
     </Router>
 </main>
+
 
 
 

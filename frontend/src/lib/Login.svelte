@@ -1,15 +1,9 @@
 <script>
-<<<<<<< HEAD
 
     /* import {user} from "../stores/user"*/
 
         import { navigate } from "svelte-routing";
         function onSubmit() {
-=======
-    import {navigate} from "svelte-routing";
-
-    function onSubmit() {
->>>>>>> fde7aabfd556891fee689892fa619d6e5256d86f
         login().then(() => {
             navigate("/success", {replace: true});
         });
@@ -27,17 +21,6 @@
         <button type="submit">Enviar</button>
     </form>
 </div>
-<<<<<<< HEAD
-    <style>
-.contenedor{
-    width: 1500px;
-    height: 819px;
-    margin-left: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*border:solid black 1px;*/
-=======
 <style>
 
     div {
@@ -46,7 +29,6 @@
         border: 1px solid black;
     }
 
->>>>>>> fde7aabfd556891fee689892fa619d6e5256d86f
 
     h1 {
         margin: 70px;

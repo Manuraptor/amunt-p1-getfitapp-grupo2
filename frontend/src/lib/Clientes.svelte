@@ -1,10 +1,16 @@
 <script>
-    export let customer;
-    export let name;
-    export let telNumber;
-    export let date;
-    export let email;
-    
+  export let customer;
+  export let name;
+  export let birthDate;
+  export let telNumber;
+  export let date;
+  export let email;
+  export let startDate;
+  export let renovationDate;
+  export let billingDate;
+  export let endDate;
+  export let paymentDate;
+  export let subscriptionType
 
     </script>
     

@@ -1,34 +1,54 @@
-<script>
-  export let customer;
-  export let name;
-  export let birthDate;
-  export let telNumber;
-  export let date;
-  export let email;
-  export let startDate;
-  export let renovationDate;
-  export let billingDate;
-  export let endDate;
-  export let paymentDate;
-  export let subscriptionType
 
-    </script>
-    
-    
-    
-    <main>
-        <table>
-            <thead>
-                <tr>
-                  <th><img src={customer}></th>
-                  <th></th><!-- Espacio vacío -->
-                  <th>{name}</th>
-                  <th>{telNumber}</th>
-                  <th>{date}</th>
-                  <th>{email}</th>
-                </tr>
-              </thead>
+        <script>
+
+        import image1 from "../assets/imagenes/clientes/persona1.jpeg";
+        import image2 from "../assets/imagenes/clientes/persona2.jpg";
+        import image3 from "../assets/imagenes/clientes/persona3.jpeg";
+        import Clientes from "./ClientesCard.svelte";
+        
+
+Clientes
+
+
+        </script> 
+        
+       
+        <main>
+                  
+      <div class="card">
+
+        <h1>Registro de clientes</h1>
+        
+        <div class="cutomer-1">
+          customerCard1={image1} name="Nelly Dominguez" 
+                         title="Informacion personal" birthDate="18/09/1983" idCard="34567854G" telNumber="698675345" email="nelly.dom@gmail.com" address="Av/Diagonal 124, Barcelona
+                         title="Informacion de facturacion" startDate="12/05/2021" renovationDate="23/12/2022" billingDate="05/07/2023" endDate="23/12/2023" paymentType="visa" subscriptionType="Anual"
+
+
+          customerCard2={image2} name="Manuel Rodrigues"
+                        title="Informacion personal" birthDate="01/12/1995" idCard="323443256F" telNumber="6781254365" email="manu.rod@gmail.com" address="C/Valencia 45, Barcelona" 
+                        title="Informacion de facturacion" startDate="16/05/2023" renovationDate="16/08/2023" billingDate="05/07/2023" endDate="16/08/2023" paymentType="visa" subscriptionType="Mensual"
+
+         
+          customerCard3={image3} name="Federico Martinez" 
+                        title="Informacion personal" birthDate="24/11/1993" idCard="45665478K" telNumber="695456098" email="fed.martm@gmail.com"m address=" C/Mallorca 226, Barcelona"
+                        title="Informacion de facturacion" startDate="08/10/2022" renovationDate="08/10/2023" billingDate="05/07/2023" endDate="08/10/20233" paymentType="visa" subscriptionType="Anual"
+
+          
+
+          </div>
+
+          </div>
+
+      
+
+</main>
+        
+        
+        
+          <style>
+        
+           
+        
             
-        </table>
-    
-    </main>
+          </style>

@@ -6,8 +6,9 @@
     import MainText from "./lib/Cover.svelte";
     import {Router, Link, Route} from "svelte-routing";
     import Login from "./lib/login.svelte";
-    import ListaDeClientes from "./lib/ListaDeClientes.svelte";
-
+    import ListaDeClientes from "./lib/Clientes.svelte";
+    import Clientes from "./lib/ClientesCard.svelte";
+Clientes
 
     /*import {user} from "../stores"*/
 </script>

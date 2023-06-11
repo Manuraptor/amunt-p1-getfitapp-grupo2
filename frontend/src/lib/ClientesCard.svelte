@@ -1,5 +1,6 @@
 <script>
   export let title
+  export let imagen
   export let customer;
   export let name;
   export let birthDate;
@@ -14,21 +15,22 @@
   export let paymentType;
   export let subscriptionType
 
+  customer
     </script>
     
        
     <main>
 
-      <div class="card">
+      <div class="conteiner">
 
                
         <div class="customer">
-          <div class="image">
-            img src={customer}
+          <img src={imagen}>
+        
             <h2>{name}</h2>
           </div>
 
-          <div class="personal-info">
+          <div class="personal">
             <h1>{title}</h1>
             <p>{birthDate}</p>
             <p>{idCard}</p>
@@ -37,7 +39,7 @@
             <p>{address}</p>
           </div>
 
-          <div class="billing-info">
+          <div class="billing">
             <h1>{title}</h1>
             <p>{startDate}</p>
             <p>{renovationDate}</p>
@@ -50,7 +52,6 @@
 
           </div>
 
-        </div>
       
     </main>
 

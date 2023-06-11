@@ -6,11 +6,12 @@
     import MainText from "./lib/Cover.svelte";
     import {Router, Link, Route} from "svelte-routing";
     import Login from "./lib/login.svelte";
-    import ListaDeClientes from "./lib/Clientes.svelte";
-    import Clientes from "./lib/ClientesCard.svelte";
-Clientes
+    import Clientes from "./lib/Clientes.svelte";
+   
+   
 
-    /*import {user} from "../stores"*/
+Clientes
+   
 </script>
 
 <main>
@@ -33,7 +34,7 @@ Clientes
           
         </Route>
         <Route path="/servicios">
-            <ListaDeClientes />
+            <Clientes />
         </Route>
     </Router>
 </main>
@@ -63,4 +64,8 @@ Clientes
         width: 140px;
         margin-left: 20px;
     }
+
+
+   
+       
 </style>

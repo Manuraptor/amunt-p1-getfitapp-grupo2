@@ -1,24 +1,29 @@
 <script>
-
-    /* import {user} from "../stores/user"*/
-
         import { navigate } from "svelte-routing";
-        function onSubmit() {
-        login().then(() => {
-            navigate("/success", {replace: true});
+       /*function onSubmit() {
+        login().then(()=> {
+            navigate("/Success", {replace: true});
         });
 
-    }
+    }*/
 
     let email = "";
     let contrasenya = "";
+
+    function  validar() {
+    if (email === "paula@gmail.com" && contrasenya === "123456") {
+        navigate("/servicios");
+    }
+       else {
+        alert("datos erróneos");
+     }}
 </script>
 <div>
     <h1>Login</h1>
-    <form>
+    <form on:submit={validar}>
         <input type="text" bind:value={email} required placeholder="Email"/>
         <input type="text" bind:value={contrasenya} required placeholder="Contraseña"/>
-        <button type="submit">Enviar</button>
+        <button type="submit" >Enviar</button>
     </form>
 </div>
 <style>

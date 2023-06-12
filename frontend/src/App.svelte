@@ -7,11 +7,10 @@
     import {Router, Link, Route} from "svelte-routing";
     import Login from "./lib/login.svelte";
     import Clientes from "./lib/Clientes.svelte";
-   
-   
 
-Clientes
-   
+
+    
+
 </script>
 
 <main>

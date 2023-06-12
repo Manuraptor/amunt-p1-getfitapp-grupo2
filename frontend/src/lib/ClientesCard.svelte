@@ -1,5 +1,6 @@
 <script>
- 
+  export let title
+  export let text
   export let imagen
   export let name
   export let birthDate
@@ -20,17 +21,17 @@
        
     <main>
 
-      <div class="conteiner">
-
+      <div class="card">
                
-        <div class="cliente">
+        <div class="image">
           <img src={imagen}>
-        
-            <h2>{name}</h2>
+          <p>{name}</p>
+                   
           </div>
 
           <div class="personal">
-             <p>{birthDate}</p>
+            <h2>{title}</h2>
+            <p>{birthDate}</p>
             <p>{idCard}</p>
             <p>{telNumber}</p>
             <p>{email}</p>
@@ -38,6 +39,7 @@
           </div>
 
           <div class="billing">
+            <h2>{text}</h2>
             <p>{startDate}</p>
             <p>{renovationDate}</p>
             <p>{billingDate}</p>
@@ -53,8 +55,12 @@
     </main>
 
     <style>
-     .container{
 
-      display: flex;
+      
+    
+
+     img{
+      height: 80px;
+      width: 80px;
      }
     </style>

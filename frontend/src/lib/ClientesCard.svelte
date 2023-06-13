@@ -27,7 +27,7 @@ function toggleCheckbox() {
   <div class="card">
     <div class="image">
       <img src={imagen} />
-      <p>{name}</p>
+      <p class="nombre"><strong>{name}</strong></p>
     </div>
    
     <div class="personal">
@@ -38,7 +38,7 @@ function toggleCheckbox() {
       <p><strong>{birthDate}</strong></p>
       <p><strong>{idCard}</strong></p>
       <p><strong>{telNumber}</strong></p>
-        <p><strong>{email}</strong></p>
+      <p><strong>{email}</strong></p>
       <p><strong>{address}</strong></p>
       <p><strong>{protectData}</strong> <input type="checkbox" bind:checked={isChecked} on:change={toggleCheckbox} /></p>
     </div>
@@ -76,12 +76,17 @@ function toggleCheckbox() {
   }
 
   img {
+   
     margin-top: 50px;
-    height: 160px;
-    width: 160px;
+    height: 150px;
+    width: 150px;
+   
 
   }
-
+ 
+  
+    
+  
   .texto{
     background-color: white;
    
@@ -105,10 +110,22 @@ function toggleCheckbox() {
 
  .image{
   width: 20%;
+  object-fit: cover;
  }
 
  .billing{
   width: 40%;
  
  }
+.nombre{
+  margin-top: 20px;
+  width: 55%;
+  font-size: medium;
+  
+  color: aliceblue;
+  padding: 0.4em;
+  background-color:  #0bcbf6;
+
+}
+
 </style>

@@ -92,18 +92,18 @@ function handlePaymentType(event) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 50px;
-    font-size: small;
+     font-size: small;
     background-color: rgb(229, 233, 239);
     border: none;
+
    
   }
 
   img {
    
-    margin-top: 50px;
-    height: 150px;
-    width: 150px;
+    margin-top: 60px;
+    height: 160px;
+    width: 160px;
    
 
   }
@@ -114,7 +114,7 @@ function handlePaymentType(event) {
   .texto{
     background-color: white;
     border-radius: 8%;
-    width: 90%;
+    width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 1.5%;
@@ -138,6 +138,7 @@ function handlePaymentType(event) {
  .image{
   width: 20%;
   object-fit: cover;
+ margin-right: -110px;
  }
 
  .billing{

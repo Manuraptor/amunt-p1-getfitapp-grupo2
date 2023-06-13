@@ -46,7 +46,7 @@
           startDate="Fecha de inicio: 16/05/2023"
           renovationDate="Fecha de renovación: 16/08/2023"
           billingDate="Fecha de facturación: 05/07/2023"
-          endDate="Fecha de baja: 16/08/2023"
+          endDate="Fecha de baja: -/-/-"
           paymentType="Forma de pago:"
           subscriptionType="Tipo de suscripción: "
         />
@@ -66,7 +66,7 @@
             startDate="Fecha de inicio: 08/10/2022"
             renovationDate="Fecha de renovación: 08/10/2023"
             billingDate="Fecha de facturación: 05/07/2023"
-            endDate="Fecha de baja: 08/10/20233"
+            endDate="Fecha de baja: -/-/-"
             paymentType="Forma de pago:"
             subscriptionType="Tipo de suscripción: "
           />

@@ -35,12 +35,12 @@ function toggleCheckbox() {
         <h2>{title}</h2>
        </div>
       <div class="texto">
-      <p><strong>{birthDate}</strong></p>
-      <p><strong>{idCard}</strong></p>
-      <p><strong>{telNumber}</strong></p>
-      <p><strong>{email}</strong></p>
-      <p><strong>{address}</strong></p>
-      <p><strong>{protectData}</strong> <input type="checkbox" bind:checked={isChecked} on:change={toggleCheckbox} /></p>
+      <p><strong>{birthDate}<br>
+      {idCard}<br>
+      {telNumber}<br>
+      {email}<br>
+      {address}<br><br>
+      {protectData}<input type="checkbox" bind:checked={isChecked} on:change={toggleCheckbox} /></strong></p>
     </div>
     </div>
 
@@ -48,12 +48,12 @@ function toggleCheckbox() {
       <div><h2>{text}</h2>
       </div>
       <div class="texto">
-      <p><strong>{startDate}</strong></p>
-      <p><strong>{renovationDate}</strong></p>
-      <p><strong>{billingDate}</strong></p>
-      <p><strong>{endDate}</strong></p>
-      <p><strong>{paymentType}</strong></p>
-      <p><strong>{subscriptionType}</strong></p>
+      <p><strong>{startDate}<br>
+      {renovationDate}<br>
+      {billingDate}<br>
+      {endDate}<br>
+      {paymentType}<br>
+      {subscriptionType}</strong></p>
     </div>
     
     </div>
@@ -128,4 +128,9 @@ function toggleCheckbox() {
   border-radius: 10px;
  
 }
+
+p{
+  margin-top: 15px;
+}
+
 </style>

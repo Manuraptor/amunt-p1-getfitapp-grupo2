@@ -92,7 +92,7 @@ function handlePaymentType(event) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-     font-size: small;
+    font-size: small;
     background-color: rgb(229, 233, 239);
     border: none;
 
@@ -101,9 +101,9 @@ function handlePaymentType(event) {
 
   img {
    
-    margin-top: 60px;
-    height: 160px;
-    width: 160px;
+    margin-top: 47px;
+    height: 165px;
+    width: 165px;
    
 
   }
@@ -113,48 +113,55 @@ function handlePaymentType(event) {
   
   .texto{
     background-color: white;
-    border-radius: 8%;
-    width: 100%;
+    border-radius: 6%;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 1.5%;
+
     
   }
 .personal{
+  display: flex;
+  flex-direction: column;
   width: 40%;
- 
 }
  h2{
   margin-top: 20px;
   width: 55%;
   font-size: medium;
   color: aliceblue;
-  padding: 0.8em;
+  padding: 0.55em;
   background-color:  #0bcbf6;
   border-radius: 10px;
- 
+
  }
 
  .image{
+  display: flex;
+  flex-direction: column;
   width: 20%;
   object-fit: cover;
- margin-right: -110px;
+  margin-right: -50px;
+  align-items: center;
  }
 
  .billing{
+  display: flex;
+  flex-direction: column;
   width: 40%;
  
  }
 .nombre{
-  margin-top: 20px;
-  width: 55%;
+  margin-top: 13px;
+  width: 57%;
   color: aliceblue;
-  padding: 0.4em;
+  padding: 0.23em;
   background-color:  #0bcbf6;
   font-size: smaller;
   text-align: center;
   border-radius: 10px;
  
+  
 }
 
 p{

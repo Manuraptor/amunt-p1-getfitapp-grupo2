@@ -28,11 +28,11 @@
         <h2>{title}</h2>
        </div>
       <div class="texto">
-      <p>{birthDate}</p>
-      <p>{idCard}</p>
-      <p>{telNumber}</p>
-      <p>{email}</p>
-      <p>{address}</p>
+      <p><strong>{birthDate}</strong></p>
+      <p><strong>{idCard}</strong></p>
+      <p><strong>{telNumber}</strong></p>
+        <p><strong>{email}</strong></p>
+      <p><strong>{address}</strong></p>
     </div>
     </div>
 
@@ -40,12 +40,12 @@
       <div><h2>{text}</h2>
       </div>
       <div class="texto">
-      <p>{startDate}</p>
-      <p>{renovationDate}</p>
-      <p>{billingDate}</p>
-      <p>{endDate}</p>
-      <p>{paymentType}</p>
-      <p>{subscriptionType}</p>
+      <p><strong>{startDate}</strong></p>
+      <p><strong>{renovationDate}</strong></p>
+      <p><strong>{billingDate}</strong></p>
+      <p><strong>{endDate}</strong></p>
+      <p><strong>{paymentType}</strong></p>
+      <p><strong>{subscriptionType}</strong></p>
     </div>
     
     </div>

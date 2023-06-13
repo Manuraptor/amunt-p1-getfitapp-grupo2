@@ -14,6 +14,13 @@
   export let endDate;
   export let paymentType;
   export let subscriptionType;
+  export let protectData
+
+  let isChecked = false;
+
+function toggleCheckbox() {
+  isChecked = !isChecked;
+}
 </script>
 
 <main>
@@ -33,6 +40,7 @@
       <p><strong>{telNumber}</strong></p>
         <p><strong>{email}</strong></p>
       <p><strong>{address}</strong></p>
+      <p><strong>{protectData}</strong> <input type="checkbox" bind:checked={isChecked} on:change={toggleCheckbox} /></p>
     </div>
     </div>
 

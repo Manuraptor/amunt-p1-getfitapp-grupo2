@@ -44,7 +44,7 @@ function handlePaymentType(event) {
       {telNumber}<br>
       {email}<br>
       {address}<br><br>
-      {protectData}<input type="checkbox" bind:checked={isChecked} on:change={toggleCheckbox} /></strong></p>
+      {protectData}  <input type="checkbox" bind:checked={isChecked} on:change={toggleCheckbox} /></strong></p>
     </div>
     </div>
 
@@ -57,7 +57,7 @@ function handlePaymentType(event) {
       {billingDate}<br>
       {endDate}<br>
       {paymentType}<br><input type="radio" bind:group={paymentType} value="tarjeta" />
-      Pago con tarjeta <input type="radio" bind:group={paymentType} value="efectivo" />
+      Pago con tarjeta <input type="radio" bind:group={paymentType} value="efectivo" /> 
       Pago en efectivo <br>  
       {subscriptionType}</strong></p>
     </div>
@@ -82,10 +82,9 @@ function handlePaymentType(event) {
     justify-content: space-between;
     margin-top: 50px;
     font-size: small;
-    background-color: rgb(245, 246, 248);
-    margin-right: 20px;
+    background-color: rgb(229, 233, 239);
     border: none;
-    gap: 10px;
+   
   }
 
   img {
@@ -102,12 +101,15 @@ function handlePaymentType(event) {
   
   .texto{
     background-color: white;
-   
     border-radius: 8%;
+    width: 90%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1.5%;
     
   }
 .personal{
-  width: 35%;
+  width: 40%;
  
 }
  h2{

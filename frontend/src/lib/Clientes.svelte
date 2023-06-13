@@ -78,10 +78,11 @@
 
 <style>
   main {
-    background-color: rgb(245, 246, 248)
+    padding-top: 20px;
+    background-color: rgb(229, 233, 239);
+   
   }
   h1 {
-    margin-top: 20px;
     text-align: center;
     background-color: #0bcbf6;
     padding: 10px;

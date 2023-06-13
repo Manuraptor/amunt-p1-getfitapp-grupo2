@@ -4,7 +4,7 @@
   import image3 from "../assets/imagenes/clientes/3.jpg";
   import ClientesCard from "./ClientesCard.svelte";
 
-  ClientesCard;
+  
 </script>
 
 <main>

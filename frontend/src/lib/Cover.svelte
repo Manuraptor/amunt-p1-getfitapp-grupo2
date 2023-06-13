@@ -1,6 +1,4 @@
-<script>
-    import imagen from "../assets/imagenes/image1.png"
-</script>
+
 
 <main>
     <h4>
@@ -8,8 +6,10 @@
         salud y bienestar. En nuestro local ofrecemos un espacio de maquinas y
         hacemos clases y seguimientos con los mejores especialistas.
     </h4>
-    <img src={imagen} alt="imagen1">
+     
 </main>
+
+
 <style>
 
     .getfit {
@@ -32,5 +32,7 @@
         width: 80%;
 
     }
+ 
+  
 
 </style>

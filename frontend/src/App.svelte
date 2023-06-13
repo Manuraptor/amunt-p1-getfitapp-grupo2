@@ -7,6 +7,12 @@
     import {Router, Link, Route} from "svelte-routing";
     import Login from "./lib/login.svelte";
     import Clientes from "./lib/Clientes.svelte";
+    
+
+
+
+   
+   
 
 
     
@@ -36,7 +42,23 @@
             <Clientes />
         </Route>
     </Router>
+<footer>
+<div class="footer">
+<p>Mobile app</p>
+<p>Comunidad</p>
+<img src={logo} alt="logo"/>
+<p>Blog</p>
+<p>Recursos</p>
+</div>
+
+
+</footer>
+
+
+
 </main>
+
+
 
 
 
@@ -48,6 +70,9 @@
         justify-content: space-between;
         align-items: center;
         background-color: #0bcbf6;
+        padding: 50px;
+       
+
     }
 
     nav {
@@ -64,7 +89,20 @@
         margin-left: 20px;
     }
 
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 55px;
 
-   
+}
+
+p{
+    font-size: xx-small;
+}
+ 
+
        
 </style>

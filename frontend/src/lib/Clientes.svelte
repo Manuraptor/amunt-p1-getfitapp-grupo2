@@ -28,7 +28,7 @@
         billingDate="Fecha de facturacion: 05/07/2023"
         endDate="Fecha de baja: 23/12/2023"
         paymentType="Forma de pago:"
-        subscriptionType="Tipo de suscripcion: Anual"
+        subscriptionType="Tipo de suscripcion: "
       />
 
       <div class="card-2">
@@ -48,7 +48,7 @@
           billingDate="Fecha de facturacion: 05/07/2023"
           endDate="Fecha de fin: 16/08/2023"
           paymentType="Forma de pago:"
-          subscriptionType="Tipo de suscripcion: Mensual"
+          subscriptionType="Tipo de suscripcion: "
         />
 
         <div class="card-3">
@@ -68,7 +68,7 @@
             billingDate="Fecha de facturacion: 05/07/2023"
             endDate="Fecha de fin: 08/10/20233"
             paymentType="Forma de pago:"
-            subscriptionType="Tipo de suscripcion: Anual"
+            subscriptionType="Tipo de suscripcion: "
           />
         </div>
       </div>

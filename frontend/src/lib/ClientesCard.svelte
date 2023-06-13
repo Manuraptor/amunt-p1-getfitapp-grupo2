@@ -25,6 +25,16 @@ function toggleCheckbox() {
 function handlePaymentType(event) {
     paymentType = event.target.value;
   }
+
+
+  let selected = 'MENSUAL';
+  let options = [
+    'MENSUAL',
+    'TRIMESTRAL',
+    'ANUAL'
+  ]
+
+
 </script>
 
 <main>
@@ -59,7 +69,9 @@ function handlePaymentType(event) {
       {paymentType}<br><input type="radio" bind:group={paymentType} value="tarjeta" />
       Pago con tarjeta <input type="radio" bind:group={paymentType} value="efectivo" /> 
       Pago en efectivo <br>  
-      {subscriptionType}</strong></p>
+      {subscriptionType} <select bind:value={selected}>
+          {#each options as value}<option {value}>{value}</option>{/each}
+        </select></strong></p>
     </div>
 
     {#if paymentType === 'tarjeta'}

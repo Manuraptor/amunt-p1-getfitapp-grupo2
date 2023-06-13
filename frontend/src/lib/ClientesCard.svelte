@@ -1,66 +1,143 @@
 <script>
-  export let title
-  export let text
-  export let imagen
-  export let name
-  export let birthDate
-  export let idCard
-  export let telNumber
-  export let email
-  export let address
-  export let startDate
-  export let renovationDate
-  export let billingDate
-  export let endDate
-  export let paymentType
-  export let subscriptionType
+  export let title;
+  export let text;
+  export let imagen;
+  export let name;
+  export let birthDate;
+  export let idCard;
+  export let telNumber;
+  export let email;
+  export let address;
+  export let startDate;
+  export let renovationDate;
+  export let billingDate;
+  export let endDate;
+  export let paymentType;
+  export let subscriptionType;
+  export let protectData
 
+  let isChecked = false;
 
-    </script>
+function toggleCheckbox() {
+  isChecked = !isChecked;
+}
+  let selected = 'EFECTIVO';
+    let options = [
+    'EFECTIVO',
+    'TARJETA'
+    ]
+</script>
+
+<main>
+  <div class="card">
+    <div class="image">
+      <img src={imagen} />
+      <p class="nombre"><strong>{name}</strong></p>
+    </div>
+   
+    <div class="personal">
+      <div>
+        <h2>{title}</h2>
+       </div>
+      <div class="texto">
+      <p><strong>{birthDate}<br>
+      {idCard}<br>
+      {telNumber}<br>
+      {email}<br>
+      {address}<br><br>
+      {protectData}<input type="checkbox" bind:checked={isChecked} on:change={toggleCheckbox} /></strong></p>
+    </div>
+    </div>
+
+    <div class="billing">
+      <div><h2>{text}</h2>
+      </div>
+      <div class="texto">
+      <p><strong>{startDate}<br>
+      {renovationDate}<br>
+      {billingDate}<br>
+      {endDate}<br>
+      {paymentType}<select bind:value={selected}>
+          {#each options as value}<option {value}>{value}</option>{/each}
+        </select><br>
+      {subscriptionType}</strong></p>
+    </div>
     
-       
-    <main>
+    </div>
+  </div>
+</main>
 
-      <div class="card">
-               
-        <div class="image">
-          <img src={imagen}>
-          <p>{name}</p>
-                   
-          </div>
+<style>
 
-          <div class="personal">
-            <h2>{title}</h2>
-            <p>{birthDate}</p>
-            <p>{idCard}</p>
-            <p>{telNumber}</p>
-            <p>{email}</p>
-            <p>{address}</p>
-          </div>
+ 
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: small;
+    background-color: rgb(245, 246, 248);
+    margin-right: 20px;
+    border: none;
+    gap: 10px;
+  }
 
-          <div class="billing">
-            <h2>{text}</h2>
-            <p>{startDate}</p>
-            <p>{renovationDate}</p>
-            <p>{billingDate}</p>
-            <p>{endDate}</p>
-            <p>{paymentType}</p>
-            <p>{subscriptionType}</p>
+  img {
+   
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+   
 
-          </div>
-
-          </div>
-
-      
-    </main>
-
-    <style>
-
-      
+  }
+ 
+  
+  
+  
+  .texto{
+    background-color: white;
+   
+    border-radius: 8%;
     
+  }
+.personal{
+  width: 35%;
+ 
+}
+ h2{
+  margin-top: 20px;
+  width: 55%;
+  font-size: medium;
+  color: aliceblue;
+  padding: 0.8em;
+  background-color:  #0bcbf6;
+  border-radius: 10px;
+ 
+ }
 
-     img{
-      height: 80px;
-      width: 80px;
-     }
-    </style>
+ .image{
+  width: 20%;
+  object-fit: cover;
+ }
+
+ .billing{
+  width: 40%;
+ 
+ }
+.nombre{
+  margin-top: 20px;
+  width: 55%;
+  color: aliceblue;
+  padding: 0.4em;
+  background-color:  #0bcbf6;
+  font-size: smaller;
+  text-align: center;
+  border-radius: 10px;
+ 
+}
+
+p{
+  margin-top: 15px;
+}
+
+</style>

@@ -21,6 +21,11 @@
 function toggleCheckbox() {
   isChecked = !isChecked;
 }
+  let selected = 'EFECTIVO';
+    let options = [
+    'EFECTIVO',
+    'TARJETA'
+    ]
 </script>
 
 <main>
@@ -52,7 +57,9 @@ function toggleCheckbox() {
       {renovationDate}<br>
       {billingDate}<br>
       {endDate}<br>
-      {paymentType}<br>
+      {paymentType}<select bind:value={selected}>
+          {#each options as value}<option {value}>{value}</option>{/each}
+        </select><br>
       {subscriptionType}</strong></p>
     </div>
     

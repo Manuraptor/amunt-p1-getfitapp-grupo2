@@ -88,6 +88,7 @@
     width: 40%;
     font-size:large;
     margin-left: 30%;
+    border-radius: 10px;
   }
 
  

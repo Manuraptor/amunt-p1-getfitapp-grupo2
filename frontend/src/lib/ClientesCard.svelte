@@ -85,7 +85,7 @@ function toggleCheckbox() {
   }
  
   
-    
+  
   
   .texto{
     background-color: white;
@@ -101,10 +101,10 @@ function toggleCheckbox() {
   margin-top: 20px;
   width: 55%;
   font-size: medium;
-  
   color: aliceblue;
   padding: 0.8em;
   background-color:  #0bcbf6;
+  border-radius: 10px;
  
  }
 
@@ -120,12 +120,12 @@ function toggleCheckbox() {
 .nombre{
   margin-top: 20px;
   width: 55%;
-  font-size: medium;
-  
   color: aliceblue;
   padding: 0.4em;
   background-color:  #0bcbf6;
-
+  font-size: smaller;
+  text-align: center;
+  border-radius: 10px;
+ 
 }
-
 </style>

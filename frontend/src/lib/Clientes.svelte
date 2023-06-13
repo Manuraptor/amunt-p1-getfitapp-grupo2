@@ -27,7 +27,7 @@
         renovationDate="Fecha de renovacion: 23/12/2022"
         billingDate="Fecha de facturacion: 05/07/2023"
         endDate="Fecha de baja: 23/12/2023"
-        paymentType="Forma de pago: Tarjeta de credito: 234565478"
+        paymentType="Forma de pago:"
         subscriptionType="Tipo de suscripcion: Anual"
       />
 
@@ -47,7 +47,7 @@
           renovationDate="Fecha de renovacion: 16/08/2023"
           billingDate="Fecha de facturacion: 05/07/2023"
           endDate="Fecha de fin: 16/08/2023"
-          paymentType="Forma de pago: Tarjeta de credito: 567889877"
+          paymentType="Forma de pago:"
           subscriptionType="Tipo de suscripcion: Mensual"
         />
 
@@ -67,7 +67,7 @@
             renovationDate="Fecha de renovacion: 08/10/2023"
             billingDate="Fecha de facturacion: 05/07/2023"
             endDate="Fecha de fin: 08/10/20233"
-            paymentType="Forma de pago: Tarjeta de credito"
+            paymentType="Forma de pago:"
             subscriptionType="Tipo de suscripcion: Anual"
           />
         </div>

@@ -21,6 +21,10 @@
 function toggleCheckbox() {
   isChecked = !isChecked;
 }
+
+function handlePaymentType(event) {
+    paymentType = event.target.value;
+  }
 </script>
 
 <main>
@@ -52,10 +56,19 @@ function toggleCheckbox() {
       {renovationDate}<br>
       {billingDate}<br>
       {endDate}<br>
-      {paymentType}<br>
+      {paymentType}<br><input type="radio" bind:group={paymentType} value="tarjeta" />
+      Pago con tarjeta <input type="radio" bind:group={paymentType} value="efectivo" />
+      Pago en efectivo <br>  
       {subscriptionType}</strong></p>
     </div>
-    
+
+    {#if paymentType === 'tarjeta'}
+ 
+  
+{:else if paymentType === 'efectivo'}
+ 
+  
+{/if}
     </div>
   </div>
 </main>

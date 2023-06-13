@@ -1,7 +1,7 @@
 <script>
-  import image1 from "../assets/imagenes/clientes/persona1.jpeg";
-  import image2 from "../assets/imagenes/clientes/persona2.jpg";
-  import image3 from "../assets/imagenes/clientes/persona3.jpeg";
+  import image1 from "../assets/imagenes/clientes/1.jpg";
+  import image2 from "../assets/imagenes/clientes/2.jpg";
+  import image3 from "../assets/imagenes/clientes/3.jpg";
   import ClientesCard from "./ClientesCard.svelte";
 
   ClientesCard;

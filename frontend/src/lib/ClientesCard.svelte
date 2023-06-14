@@ -1,5 +1,6 @@
 <script>
     export let lopdAccepted = false;
+    export let paymentType = "tarjeta";
     export let imagen;
     export let name;
     export let birthDate;
@@ -11,8 +12,7 @@
     export let renovationDate;
     export let billingDate;
     export let endDate;
-    export let paymentType;
-    export let subscriptionType;
+    export let subscriptionType="ANUAL";
 
     let isChecked = false;
 
@@ -48,10 +48,10 @@
             <div class="texto">
                 <p>Fecha de nacimiento: {birthDate}</p>
                 <p>DNI: {idCard}</p>
-                <p>{telNumber}</p>
+                <p>Teléfono: {telNumber}</p>
                 <p>Email: {email}</p>
-                <p>{address}</p>
-                <p>Aceptación LOPD <input type="checkbox" checked={lopdAccepted} on:change={toggleCheckbox}/></p>
+                <p>Dirección: {address}</p>
+                <p>Aceptación LOPD: <input type="checkbox" checked={lopdAccepted} on:change={toggleCheckbox}/></p>
             </div>
         </div>
 
@@ -59,18 +59,18 @@
             <div><h2>Información de facturación</h2>
             </div>
             <div class="texto">
-                <p>{startDate}</p>
-                <p>{renovationDate}</p>
-                <p>{billingDate}</p>
-                <p>{endDate}</p>
-                <p>{paymentType}<input type="radio" bind:group={paymentType} value="tarjeta"/></p>
-                Pago con tarjeta <input type="radio" bind:group={paymentType} value="efectivo"/>
-                Pago en efectivo
-                {subscriptionType} <select bind:value={selected}>
+                <p>Fecha de inicio: {startDate}</p>
+                <p>Fecha de renovación: {renovationDate}</p>
+                <p>Fecha de facturación: {billingDate}</p>
+                <p>Fecha de baja: {endDate}</p>
+                <p>Forma de pago: {paymentType}<input type="radio" bind:group={paymentType} value="tarjeta"/>
+                Pago con tarjeta <input type="radio" bind:group={paymentType} value="efectivo"
+                Pago en efectivo> </p>
+                <p>Tipo de suscripción: {subscriptionType} <select bind:value={subscriptionType}>
                 {#each options as value}
                     <option {value}>{value}</option>
-                {/each}
-            </select>
+                {/each}>
+                </select></p>
             </div>
         </div>
     </div>

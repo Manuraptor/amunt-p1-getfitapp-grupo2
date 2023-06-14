@@ -1,12 +1,11 @@
 package com.getfiteasy.backend.domain
 
 import jakarta.persistence.*
-import jakarta.persistence.criteria.CriteriaBuilder.In
-import java.util.Date
 
 @Table(name = "clientes")
 @Entity
-data class Clientes(
+data class Client(
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long,

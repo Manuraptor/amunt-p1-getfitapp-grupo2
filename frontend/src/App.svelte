@@ -1,22 +1,10 @@
 <script>
-  
-
     import Servicios from "./lib/servicios.svelte";
     import logo from "./assets/imagenes/logo.png";
     import MainText from "./lib/Cover.svelte";
     import {Router, Link, Route} from "svelte-routing";
     import Login from "./lib/login.svelte";
     import Clientes from "./lib/Clientes.svelte";
-    
-
-
-
-   
-   
-
-
-    
-
 </script>
 
 <main>
@@ -25,7 +13,6 @@
             <img src={logo} alt="logo"/>
             <nav>
                 <span><Link to="/">Inicio</Link></span>
-                <span><Link to="/servicios">Servicios</Link></span>
                 <span>Tarifas</span>
                 <span><Link to="/login">Login</Link></span>
             </nav>
@@ -35,32 +22,26 @@
             <Servicios/>
         </Route>
         <Route path="/login">
-            <Login />
-          
+            <Login/>
         </Route>
         <Route path="/servicios">
-            <Clientes />
+            <Clientes/>
         </Route>
     </Router>
-<footer>
-<div class="footer">
-<p>Mobile app</p>
-<p>Comunidad</p>
-<img src={logo} alt="logo"/>
-<p>Blog</p>
-<p>Recursos</p>
-</div>
+    <footer>
+        <div class="footer">
+            <p>Mobile app</p>
+            <p>Comunidad</p>
+            <img src={logo} alt="logo"/>
+            <p>Blog</p>
+            <p>Recursos</p>
+        </div>
 
 
-</footer>
-
+    </footer>
 
 
 </main>
-
-
-
-
 
 
 <style>
@@ -71,7 +52,7 @@
         align-items: center;
         background-color: #0bcbf6;
         padding: 50px;
-       
+
 
     }
 
@@ -89,20 +70,19 @@
         margin-left: 20px;
     }
 
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 55px;
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 55px;
 
-}
+    }
 
-p{
-    font-size: xx-small;
-}
- 
+    p {
+        font-size: xx-small;
+    }
 
-       
+
 </style>

@@ -1,7 +1,15 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
   
+  import image1 from "../assets/imagenes/carusel/image1.png"
+  import image2 from "../assets/imagenes/carusel/image2.png" 
+  import image3 from "../assets/imagenes/carusel/image3.png"
+  import image4 from "../assets/imagenes/carusel/image4.png"
+  import CarouselCard from './CarouselCard.svelte';
+  
 
+
+  
   let images = [
     'image1.jpg',
     'image2.jpg',
@@ -9,6 +17,7 @@
     'image4.jpg'
   ];
  
+  
 
   let currentIndex = 0;
   let intervalId = null;
@@ -39,7 +48,7 @@
 
 <div class="carousel">
   {#each images as image (image)}
-    <CaruselCard image={image} />
+    <CarouselCard image={image} />
   {/each}
 </div>
 

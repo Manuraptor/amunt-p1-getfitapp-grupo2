@@ -14,7 +14,7 @@
         <div class="card-1">
 
             <ClientesCard
-                    lopdAccepted=true
+
                     imagen={image1}
                     name="Nelly Dominguez"
                     birthDate="18/09/1983"
@@ -22,6 +22,7 @@
                     telNumber="698675345"
                     email="nelly.dom@gmail.com"
                     address="Av/Diagonal 124, Barcelona"
+                    lopdAccepted=true
                     startDate="12/05/2021"
                     renovationDate="23/12/2022"
                     billingDate="05/07/2023"
@@ -40,6 +41,7 @@
                         telNumber="6781254365"
                         email="manu.rod@gmail.com"
                         address="C/Valencia 45, Barcelona"
+                        lopdAccepted=false
                         startDate="16/05/2023"
                         renovationDate="16/08/2023"
                         billingDate="05/07/2023"
@@ -51,7 +53,7 @@
           <div class="card-3">
               <ClientesCard
 
-                      lopdAccepted=true
+
                       imagen={image3}
                       name="Federico Martínez"
                       birthDate="24/11/1993"
@@ -59,6 +61,7 @@
                       telNumber="695456098"
                       email="fed.martm@gmail.com"
                       address="C/Mallorca 226, Barcelona"
+                      lopdAccepted=true
                       startDate="08/10/2022"
                       renovationDate="08/10/2023"
                       billingDate="05/07/2023"

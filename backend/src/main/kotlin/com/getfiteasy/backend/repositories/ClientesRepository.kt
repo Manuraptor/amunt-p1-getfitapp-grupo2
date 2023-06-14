@@ -1,4 +1,8 @@
 package com.getfiteasy.backend.repositories
 
-interface ClientesRepository {
-}
+import com.getfiteasy.backend.domain.Client
+import org.springframework.data.jpa.repository.JpaRepository
+import org.springframework.stereotype.Repository
+
+@Repository
+interface ClientesRepository : JpaRepository<Client, Long>

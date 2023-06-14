@@ -1,6 +1,10 @@
 <script>
     export let image;
-    export let title;
+    export let currentIndex
+  
+
+
+    
   </script>
   
   

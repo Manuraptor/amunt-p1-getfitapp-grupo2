@@ -63,9 +63,9 @@
                 <p>Fecha de renovación: {renovationDate}</p>
                 <p>Fecha de facturación: {billingDate}</p>
                 <p>Fecha de baja: {endDate}</p>
-                <p>Forma de pago: {paymentType}<input type="radio" bind:group={paymentType} value="tarjeta"/>
-                Pago con tarjeta <input type="radio" bind:group={paymentType} value="efectivo"
-                Pago en efectivo> </p>
+                <p>Forma de pago: <br><br><input type="radio" bind:group={paymentType} value="tarjeta"/>
+                Pago con tarjeta <input type="radio" bind:group={paymentType} value="efectivo" />
+                Pago en efectivo </p>
                 <p>Tipo de suscripción: {subscriptionType} <select bind:value={subscriptionType}>
                 {#each options as value}
                     <option {value}>{value}</option>

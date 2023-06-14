@@ -26,7 +26,7 @@ function handlePaymentType(event) {
     paymentType = event.target.value;
   }
 
-
+let yes = false;
   let selected = 'MENSUAL';
   let options = [
     'MENSUAL',
@@ -54,7 +54,7 @@ function handlePaymentType(event) {
       {telNumber}<br>
       {email}<br>
       {address}<br><br>
-      {protectData}  <input type="checkbox" bind:checked={isChecked} on:change={toggleCheckbox} /></strong></p>
+      {protectData}  <input type="checkbox" checked={yes}  on:change={toggleCheckbox} /></strong></p>
     </div>
     </div>
 

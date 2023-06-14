@@ -10,19 +10,20 @@ data class Client(
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long,
     var name: String,
-    var idCard: Int,
+    var idCard: String,
     var address: String,
-    var telNumber: Int,
+    var telNumber: String,
     val email: String,
-    val birthdate: Int,
-    val startDate: Int,
-    val protectDate: Boolean,
-    val renovationDate: Int,
-    val billingDate: Int,
-    val dischargeDate: Int,
-    val endDate: Int,
-    val paymentType: Int,
+    val birthDate: String,
+    val startDate: String,
+    val lopdAccepted: Boolean,
+    val renovationDate: String,
+    val billingDate: String,
+    val endDate: String?,
+    val paymentType: String,
     val subscriptionType: String
-
-
 )
+
+// camelCase
+// snake_case
+// kebab-case

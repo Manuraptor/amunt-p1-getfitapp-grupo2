@@ -105,7 +105,7 @@
  .price{
   font-size: larger;
   ;
-  color: yellow;
+  color: green;
  }
 
  h1{

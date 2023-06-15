@@ -7,6 +7,7 @@
     import Clientes from "./lib/Clientes.svelte";
     import Tarifas from "./lib/Tarifas.svelte";
     import Carousel from "./lib/Carousel.svelte";
+   
 
     
 </script>
@@ -26,6 +27,9 @@
             <MainText/>
             <Carousel/>
             <Servicios/>
+           
+           
+           
         </Route>
         <Route path="/login">
             <Login/>
@@ -41,17 +45,7 @@
     
     
     
-    <footer>
-        <div class="footer">
-            <p>Mobile app</p>
-            <p>Comunidad</p>
-            <img src={logo} alt="logo"/>
-            <p>Blog</p>
-            <p>Recursos</p>
-        </div>
-
-
-    </footer>
+   
 
 
 </main>

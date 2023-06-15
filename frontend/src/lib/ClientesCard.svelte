@@ -70,7 +70,7 @@
                 {#each options as value}
                     <option {value}>{value}</option>
                 {/each}>
-                </select></p>
+               
             </div>
         </div>
     </div>

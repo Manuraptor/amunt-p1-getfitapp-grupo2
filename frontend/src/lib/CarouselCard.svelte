@@ -2,7 +2,13 @@
     export let image;
     export let currentIndex
   
-
+    let images = [
+    'image1.jpg',
+    'image2.jpg',
+    'image3.jpg',
+    'image4.jpg'
+  ];
+ 
 
     
   </script>

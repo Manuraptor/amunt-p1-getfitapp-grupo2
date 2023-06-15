@@ -5,6 +5,8 @@
     import {Router, Link, Route} from "svelte-routing";
     import Login from "./lib/login.svelte";
     import Clientes from "./lib/Clientes.svelte";
+    import Tarifas from "./lib/Tarifas.svelte";
+    
 </script>
 
 <main>
@@ -13,7 +15,7 @@
             <img src={logo} alt="logo"/>
             <nav>
                 <span><Link to="/">Inicio</Link></span>
-                <span>Tarifas</span>
+                <span><Link to="/tarifas">Tarifas</Link></span>
                 <span><Link to="/login">Login</Link></span>
             </nav>
         </header>
@@ -27,7 +29,14 @@
         <Route path="/servicios">
             <Clientes/>
         </Route>
+  
+    <Route path="/tarifas">
+        <Tarifas/>
+    </Route>
     </Router>
+    
+    
+    
     <footer>
         <div class="footer">
             <p>Mobile app</p>

@@ -29,6 +29,7 @@
             <img src={logo} alt="logo"/>
             <nav>
                 <span><Link to="/">Inicio</Link></span>
+                <span><Link to="/servicios">Servicios</Link></span>
                 <span><Link to="/tarifas">Tarifas</Link></span>
                 <span><Link to="/login">Login</Link></span>
             </nav>
@@ -46,7 +47,7 @@
             <Login/>
         </Route>
         <Route path="/servicios">
-            <Clientes/>
+            <Servicios/>
         </Route>
   
     <Route path="/tarifas">

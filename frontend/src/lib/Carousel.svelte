@@ -45,5 +45,5 @@
 </style>
 
 <div class="carousel">
-  <img src={"images[currentIndex]"} alt="">
+  <img src={images[currentIndex]} alt="Carousel Image">
 </div>

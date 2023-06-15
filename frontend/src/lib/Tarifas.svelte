@@ -23,7 +23,7 @@
     <CardBody>
       <CardSubtitle><p class="title">Horario mañana</p> </CardSubtitle>
       <CardText>  
-        <p>Lunes-Sabado</p>
+        <p>De Lunes a Sabado</p>
         <p> Desde 9:00h-13:00h</p>
         <p class="price"> 19.99€/mes</p> 
       <p class="oferta">¡TARIFA REDUCIDA!</p>  </CardText>
@@ -39,7 +39,7 @@
     <CardBody>
       <CardSubtitle><p class="title">Horario todo el dia</p> </CardSubtitle>
       <CardText>
-        <p>Lunes-Sabado</p>
+        <p>De Lunes a Sabado</p>
         <p> Desde 9:00h-21:00h</p>
         <p class="price"> 120€/año</p> 
        
@@ -58,7 +58,7 @@
     <CardBody>
       <CardSubtitle><p class="title">Horario personalizado</p></CardSubtitle>
       <CardText>
-        <p>Lunes-Sabado</p>
+        <p>De Lunes a Sabado</p>
         <p> Desde 9:00h-21:00h</p>
         <p class="price"> 142.67€/mes</p> 
       </CardText>
@@ -75,7 +75,7 @@
     <CardBody>
       <CardSubtitle><p class="title">Horario mañana</p></CardSubtitle>
       <CardText>
-        <p>Lunes-Sabado</p>
+        <p>De Lunes a Sabado</p>
         <p> Desde 9:00h-13:00h</p>
         <p class="price"> 56€/mes</p>
       </CardText>

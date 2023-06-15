@@ -57,7 +57,11 @@
     
     
     
+    <footer>
+        <div class="footer-content">
+          <p>© 2023 .<span class="getfit">GetFitEasy</span> Todos los derechos reservados.</p>
    
+        </footer>
     
 
 
@@ -92,7 +96,16 @@
     }
 
     
-   
+    .getfit {
+        color: rgb(86, 195, 235);
+        font-weight: 600;
+    }
+     
+    footer{
+               
+       
+        text-align: center;
+    }
         
     
 </style>

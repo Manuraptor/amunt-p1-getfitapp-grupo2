@@ -1,53 +1,49 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
-  
-  import image from "../assets/imagenes/carusel/image1.png";
-  import image2 from "../assets/imagenes/carusel/image2.png"; 
-  import image3 from "../assets/imagenes/carusel/image3.png";
-  import image4 from "../assets/imagenes/carusel/image4.png";
-  import CarouselCard from './CarouselCard.svelte'
-  
-
-
-  
-  
-  
+  import { afterUpdate } from 'svelte';
 
   let currentIndex = 0;
-  let intervalId = null;
+  let interval;
 
-  function startAutoplay() {
-    intervalId = setInterval(() => {
-      nextSlide();
-    }, 3000);
-  }
+  const images = [
+    'image1.png',
+    'image2.png',
+    'image3.png',
+    'image4.png'
+  ];
 
-  function stopAutoplay() {
-    clearInterval(intervalId);
-  }
-
-  function nextSlide() {
+  function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;
   }
 
   onMount(() => {
-    startAutoplay();
+    interval = setInterval(nextImage, 3000);
+  });
+
+  afterUpdate(() => {
+    clearInterval(interval);
+    interval = setInterval(nextImage, 3000);
   });
 
   onDestroy(() => {
-    stopAutoplay();
+    clearInterval(interval);
   });
 </script>
 
+<style>
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+
+  .carousel img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+</style>
 
 <div class="carousel">
-  {#each images as image (image)}
-    <CarouselCard image={image} />
-  {/each}
+  <img src={"images[currentIndex]"} alt="">
 </div>
-
-
-
-
-
-

@@ -7,10 +7,7 @@
     import Clientes from "./lib/Clientes.svelte";
     import Tarifas from "./lib/Tarifas.svelte";
     import {onMount} from "svelte";
-    import image1 from "../assets/imagenes/footer/facebook.png"
-    import image2 from "../assets/imagenes/footer/email.png"
-    import image3 from "../asets/imagenes/footer/instagram.png"
-    import image4 from "../assets/imagenes/footer/image1.png"
+   
     
 
 
@@ -125,7 +122,7 @@
 
     }
 
-     .footer-botom{8
+     .footer-botom{
         border-top: 1px solid #000;
         display: flex;
         flex-direction: row;

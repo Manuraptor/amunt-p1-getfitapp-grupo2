@@ -1,53 +1,52 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
-  
-  import image from "../assets/imagenes/carusel/image1.png";
-  import image2 from "../assets/imagenes/carusel/image2.png"; 
-  import image3 from "../assets/imagenes/carusel/image3.png";
-  import image4 from "../assets/imagenes/carusel/image4.png";
-  import CarouselCard from './CarouselCard.svelte'
-  
+  import { afterUpdate } from 'svelte';
+ 
 
-
-  
-  
-  
+  const images = [
+    'src/assets/imagenes/carusel/image1.png',
+    'src/assets/imagenes/carusel/image2.png',
+    'src/assets/imagenes/carusel/image3.png',
+    'src/assets/imagenes/carusel/image4.png'
+  ];
 
   let currentIndex = 0;
-  let intervalId = null;
+  let interval;
 
-  function startAutoplay() {
-    intervalId = setInterval(() => {
-      nextSlide();
-    }, 3000);
-  }
-
-  function stopAutoplay() {
-    clearInterval(intervalId);
-  }
-
-  function nextSlide() {
+ 
+  function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;
   }
 
   onMount(() => {
-    startAutoplay();
+    interval = setInterval(nextImage, 3000);
+  });
+
+  afterUpdate(() => {
+    clearInterval(interval);
+    interval = setInterval(nextImage, 3000);
   });
 
   onDestroy(() => {
-    stopAutoplay();
+    clearInterval(interval);
   });
 </script>
 
+<style>
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+  }
+
+  .carousel img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+</style>
 
 <div class="carousel">
-  {#each images as image (image)}
-    <CarouselCard image={image} />
-  {/each}
+  <img src={images[currentIndex]} alt="Carousel Image">
 </div>
-
-
-
-
-
-

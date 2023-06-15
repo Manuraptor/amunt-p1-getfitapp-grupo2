@@ -14,6 +14,9 @@
             .then(respuesta => respuesta.json())
             .then(datos => Clientes = datos)
     })
+
+    import Carousel from "./lib/Carousel.svelte";
+
     
 </script>
 
@@ -28,7 +31,9 @@
             </nav>
         </header>
         <Route path="/">
+           
             <MainText/>
+            <Carousel/>
             <Servicios/>
         </Route>
         <Route path="/login">

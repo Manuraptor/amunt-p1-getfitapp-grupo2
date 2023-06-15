@@ -7,7 +7,10 @@
     import Clientes from "./lib/Clientes.svelte";
     import Tarifas from "./lib/Tarifas.svelte";
     import {onMount} from "svelte";
-   
+    import image1 from "../assets/imagenes/footer/facebook.png"
+    import image2 from "../assets/imagenes/footer/email.png"
+    import image3 from "../asets/imagenes/footer/instagram.png"
+    import image4 from "../assets/imagenes/footer/image1.png"
     
 
 
@@ -112,7 +115,7 @@
         font-size: xx-small;
     }
     .footer {
-        border-bottom: 1px solid #000; /* Cambia el color y el grosor de la línea según tus preferencias */
+       
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -121,7 +124,15 @@
         padding: 55px;
 
     }
+
+     .footer-botom{8
+        border-top: 1px solid #000;
+        display: flex;
+        flex-direction: row;
+        align-items:center
+        
+     }
     img{
-        wi
+        width: 10px;
     }
 </style>

@@ -1,47 +1,46 @@
+
+
+amunt-p1-getfitapp-grupo2 
+<h1 aling="center">
+<img src="src\assets\imagenes\image1" alt="amunt-p1-getfitapp-grupo2 ">
+</h1>
+
+
+# Project getfitapp-grupo2
+***
+# Desarollado por:
+
+* Silvana Cinthia
+* Ikram
+* Nelly
+* Manuel 
+ * Telma 
+
+## Tecnologías aplicadas
+
+* Github
+* Trello
+* Visual Studio Code
+* IntelliJ
+* HTML5
+* CSS3
+* Javascript
+* Svelte + vite
+* Postman
+* Figma
+
+## Funcionalidades del proyecto
+
+
 # Svelte + Vite
+Svelte y Vite son dos herramientas que se pueden utilizar juntas en un proyecto para aprovechar sus capacidades y obtener un flujo de desarrollo más eficiente.
 
-This template should help get you started developing with Svelte in Vite.
+Svelte es un framework de JavaScript para construir interfaces de usuario reactivas y eficientes. Proporciona una forma declarativa de crear componentes web reutilizables y se enfoca en compilar el código en tiempo de compilación en lugar de interpretarlo en tiempo de ejecución. Svelte permite crear aplicaciones web rápidas y livianas, con un rendimiento óptimo.
 
-## Recommended IDE Setup
+Por otro lado, Vite es una herramienta de construcción (bundler) rápida y liviana para proyectos de JavaScript. Está diseñada específicamente para proyectos basados en frameworks modernos como Svelte, Vue y React. Vite ofrece un tiempo de desarrollo rápido mediante el uso de importaciones con código dividido (importación dinámica) y la ejecución del código directamente en el navegador sin necesidad de generar un paquete de producción.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+Cuando se utilizan Svelte y Vite juntos, Vite se encarga de la construcción y el servidor de desarrollo del proyecto, mientras que Svelte se encarga de la creación de componentes y la lógica de la interfaz de usuario. Vite proporciona un entorno de desarrollo rápido y optimizado, permitiendo una experiencia de desarrollo fluida y una rápida recarga en el navegador durante el desarrollo.
 
-## Need an official Svelte framework?
+En resumen, la combinación de Svelte y Vite en un proyecto permite aprovechar las ventajas de ambos: la capacidad de desarrollo rápido y el rendimiento eficiente de Svelte, junto con la herramienta de construcción rápida y optimizada de Vite. Esto puede ayudar a agilizar el proceso de desarrollo y mejorar la eficiencia en la creación de aplicaciones web con Svelte.
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
 
-## Technical considerations
-
-**Why use this over SvelteKit?**
-
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
-
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
-
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `checkJs` in the JS template?**
-
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```

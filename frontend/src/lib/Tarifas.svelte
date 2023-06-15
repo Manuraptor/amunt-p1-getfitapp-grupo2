@@ -3,7 +3,7 @@
      
       Card,
       CardBody,
-      CardFooter,
+      
       CardHeader,
       CardSubtitle,
       CardText,
@@ -21,23 +21,23 @@
       <CardTitle><p>Suscripción Mensual</p></CardTitle>
     </CardHeader>
     <CardBody>
-      <CardSubtitle>Horario mañana </CardSubtitle>
+      <CardSubtitle><p class="title">Horario mañana</p> </CardSubtitle>
       <CardText>  
         <p>Lunes-Sabado</p>
         <p> Desde 9:00h-13:00h</p>
-        <p class="price"> 19.99€/mes</p>   </CardText>
-        <CardFooter></CardFooter>
-      
+        <p class="price"> 19.99€/mes</p> 
+      <p class="oferta">¿TARIFA REDUCIDA!</p>  </CardText>
+       
     </CardBody>
     
   </Card>
 
-  <Card body color="info" class=card>
+  <Card body color="info" class="mb-3">
     <CardHeader>
       <CardTitle><p>Suscripción Anual</p></CardTitle>
     </CardHeader>
     <CardBody>
-      <CardSubtitle> Horario todo el dia</CardSubtitle>
+      <CardSubtitle><p class="title">Horario todo el dia</p> </CardSubtitle>
       <CardText>
         <p>Lunes-Sabado</p>
         <p> Desde 9:00h-21:00h</p>
@@ -45,40 +45,41 @@
        
       </CardText>
       
-      <CardFooter></CardFooter>
+     
     </CardBody>
    
   </Card>
-  <Card body color="info" class=card>
+ 
+  <Card body color="info" class="mb-3">
  
     <CardHeader>
       <CardTitle><p>Entrenador Personal</p></CardTitle>
     </CardHeader>
     <CardBody>
-      <CardSubtitle>Horario personalizado</CardSubtitle>
+      <CardSubtitle><p class="title">Horario personalizado</p></CardSubtitle>
       <CardText>
         <p>Lunes-Sabado</p>
         <p> Desde 9:00h-21:00h</p>
         <p class="price"> 142.67€/mes</p> 
       </CardText>
       
-      <CardFooter></CardFooter>
+     
     </CardBody>
     
   </Card>
 
-  <Card body color="info" class=card>
+  <Card body color="info" class="mb-3">
     <CardHeader>
       <CardTitle><p>Clases de Natación</p></CardTitle>
     </CardHeader>
     <CardBody>
-      <CardSubtitle>Horario mañana</CardSubtitle>
+      <CardSubtitle><p class="title">Horario mañana</p></CardSubtitle>
       <CardText>
         <p>Lunes-Sabado</p>
         <p> Desde 9:00h-13:00h</p>
         <p class="price"> 56€/mes</p>
       </CardText>
-      <CardFooter></CardFooter>
+      
     </CardBody>
     
   </Card>
@@ -104,7 +105,7 @@
  .price{
   font-size: larger;
   ;
-  color: rgb(26, 26, 218);
+  color: yellow;
  }
 
  h1{
@@ -114,4 +115,17 @@
   color: green;
 
  }
+
+ .title{
+  color: green;
+ }
+  
+.oferta{
+  color: red;
+}
+
+.card{
+  width: 100%;
+  height: 100%;
+}
 </style>

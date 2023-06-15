@@ -6,6 +6,8 @@
     import Login from "./lib/login.svelte";
     import Clientes from "./lib/Clientes.svelte";
     import Tarifas from "./lib/Tarifas.svelte";
+    import Carousel from "./lib/Carousel.svelte";
+
     
 </script>
 
@@ -20,7 +22,9 @@
             </nav>
         </header>
         <Route path="/">
+           
             <MainText/>
+            <Carousel/>
             <Servicios/>
         </Route>
         <Route path="/login">

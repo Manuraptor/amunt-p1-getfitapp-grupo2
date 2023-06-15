@@ -56,24 +56,7 @@
     
     
     
-    <footer>
-        <div class="footer">
-            <p>Mobile app</p>
-            <p>Comunidad</p>
-            <img src={logo} alt="logo"/>
-            <p>Blog</p>
-            <p>Recursos</p>
-            
-        </div>
-    
-        <div class="footer-botom">
-            <img src="../src/assets/imagenes/footer/facebook.png" alt="">
-            <img src="../src/assets/imagenes/footer/email.png" alt="">
-            <img src="../src/assets/imagenes/footer/instagram.png" alt="">
-            <img src="../src/assets/imagenes/footer/image1.png" alt="">
-            
-        </div>
-        </footer>
+   
     
 
 
@@ -108,28 +91,7 @@
     }
 
     
-    p {
-        font-size: xx-small;
-    }
-    .footer {
-       
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding: 55px;
-
-    }
-
-     .footer-botom{
-        border-top: 1px solid #000;
-        display: flex;
-        flex-direction: row;
-        align-items:center
+   
         
-     }
-    img{
-        width: 10px;
-    }
+    
 </style>

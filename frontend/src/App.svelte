@@ -7,6 +7,8 @@
     import Clientes from "./lib/Clientes.svelte";
     import Tarifas from "./lib/Tarifas.svelte";
     import {onMount} from "svelte";
+   
+    
 
 
     onMount(() => {
@@ -54,7 +56,25 @@
     
     
     
-   
+    <footer>
+        <div class="footer">
+            <p>Mobile app</p>
+            <p>Comunidad</p>
+            <img src={logo} alt="logo"/>
+            <p>Blog</p>
+            <p>Recursos</p>
+            
+        </div>
+    
+        <div class="footer-botom">
+            <img src="../src/assets/imagenes/footer/facebook.png" alt="">
+            <img src="../src/assets/imagenes/footer/email.png" alt="">
+            <img src="../src/assets/imagenes/footer/instagram.png" alt="">
+            <img src="../src/assets/imagenes/footer/image1.png" alt="">
+            
+        </div>
+        </footer>
+    
 
 
 </main>
@@ -87,7 +107,12 @@
         margin-left: 20px;
     }
 
+    
+    p {
+        font-size: xx-small;
+    }
     .footer {
+        border-bottom: 1px solid #000; /* Cambia el color y el grosor de la línea según tus preferencias */
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -96,10 +121,7 @@
         padding: 55px;
 
     }
-
-    p {
-        font-size: xx-small;
+    img{
+        wi
     }
-
-
 </style>

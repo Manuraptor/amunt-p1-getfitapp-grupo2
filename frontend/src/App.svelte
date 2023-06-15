@@ -6,6 +6,15 @@
     import Login from "./lib/login.svelte";
     import Clientes from "./lib/Clientes.svelte";
     import Tarifas from "./lib/Tarifas.svelte";
+    import {onMount} from "svelte";
+
+
+    onMount(() => {
+        fetch("http://localhost:8080/clientes")
+            .then(respuesta => respuesta.json())
+            .then(datos => Clientes = datos)
+    })
+
     import Carousel from "./lib/Carousel.svelte";
    
 

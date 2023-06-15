@@ -18,7 +18,7 @@
 
     <Card body color="info" class="mb-3">
     <CardHeader>
-      <CardTitle><p>Suscripción Mensual</p></CardTitle>
+      <CardTitle><p class="header">Suscripción Mensual</p></CardTitle>
     </CardHeader>
     <CardBody>
       <CardSubtitle><p class="title">Horario mañana</p> </CardSubtitle>
@@ -26,7 +26,7 @@
         <p>Lunes-Sabado</p>
         <p> Desde 9:00h-13:00h</p>
         <p class="price"> 19.99€/mes</p> 
-      <p class="oferta">¿TARIFA REDUCIDA!</p>  </CardText>
+      <p class="oferta">¡TARIFA REDUCIDA!</p>  </CardText>
        
     </CardBody>
     
@@ -34,7 +34,7 @@
 
   <Card body color="info" class="mb-3">
     <CardHeader>
-      <CardTitle><p>Suscripción Anual</p></CardTitle>
+      <CardTitle><p class="header">Suscripción Anual</p></CardTitle>
     </CardHeader>
     <CardBody>
       <CardSubtitle><p class="title">Horario todo el dia</p> </CardSubtitle>
@@ -53,7 +53,7 @@
   <Card body color="info" class="mb-3">
  
     <CardHeader>
-      <CardTitle><p>Entrenador Personal</p></CardTitle>
+      <CardTitle><p class="header">Entrenador Personal</p></CardTitle>
     </CardHeader>
     <CardBody>
       <CardSubtitle><p class="title">Horario personalizado</p></CardSubtitle>
@@ -70,7 +70,7 @@
 
   <Card body color="info" class="mb-3">
     <CardHeader>
-      <CardTitle><p>Clases de Natación</p></CardTitle>
+      <CardTitle><p class="header">Clases de Natación</p></CardTitle>
     </CardHeader>
     <CardBody>
       <CardSubtitle><p class="title">Horario mañana</p></CardSubtitle>
@@ -99,11 +99,13 @@
   }
 
  p{
-  color: rgb(229, 229, 238);
+  /*color: rgb(229, 229, 238);*/
+   font-size: x-large;
+   color:yellow;
  }
 
  .price{
-  font-size: larger;
+  font-size: xxx-large;
   ;
   color: green;
  }
@@ -111,21 +113,20 @@
  h1{
   text-align: center;
   padding-top: 30px;
-  font-size:large;
+  font-size:xxx-large;
   color: green;
 
  }
 
  .title{
-  color: green;
+  color: yellow;
  }
   
 .oferta{
   color: red;
 }
-
-.card{
-  width: 100%;
-  height: 100%;
+.header {
+  color: green;
 }
+
 </style>

@@ -5,7 +5,7 @@
     import ClientesCard from "./ClientesCard.svelte";
 
 
-</script>
+</script>""
 
 <main>
     <h1 style="color: white;">Registro de clientes</h1>

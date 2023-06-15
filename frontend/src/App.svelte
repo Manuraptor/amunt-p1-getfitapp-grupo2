@@ -40,16 +40,24 @@
             <Carousel/>
             <Servicios/>
            
-           
+                    
            
         </Route>
+
+
         <Route path="/login">
             <Login/>
+            <Clientes/>
         </Route>
+        
         <Route path="/servicios">
             <Servicios/>
         </Route>
-  
+        
+        <Route path="/clientes">
+            <Clientes/>
+        </Route>
+
     <Route path="/tarifas">
         <Tarifas/>
     </Route>

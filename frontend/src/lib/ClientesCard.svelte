@@ -141,7 +141,7 @@
         margin-top: 13px;
         width: 57%;
         color: aliceblue;
-        padding: 0.23em;
+        padding: 0.25em;
         background-color: #0bcbf6;
         font-size: smaller;
         text-align: center;

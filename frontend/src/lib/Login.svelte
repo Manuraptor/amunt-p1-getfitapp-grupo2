@@ -8,7 +8,7 @@
 
     function validar() {
         if (email === "paula@gmail.com" && contrasenya === "123456") {
-            navigate("/servicios");
+            navigate("./clientes");
         } else {
             error=true;
         }

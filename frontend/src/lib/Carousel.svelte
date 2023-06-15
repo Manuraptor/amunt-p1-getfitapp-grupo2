@@ -1,17 +1,19 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
   import { afterUpdate } from 'svelte';
+ 
+
+  const images = [
+    'src/assets/imagenes/carusel/image1.png',
+    'src/assets/imagenes/carusel/image2.png',
+    'src/assets/imagenes/carusel/image3.png',
+    'src/assets/imagenes/carusel/image4.png'
+  ];
 
   let currentIndex = 0;
   let interval;
 
-  const images = [
-    'image1.png',
-    'image2.png',
-    'image3.png',
-    'image4.png'
-  ];
-
+ 
   function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;
   }

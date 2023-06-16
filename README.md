@@ -1,7 +1,7 @@
 
 
-amunt-p1-getfitapp-grupo2 
-<h1 aling="center">
+
+<h1> GitFitEasy</h1>
 <img src="./.assets/imagenes/GetFitEasy.png">
 </h1>
 

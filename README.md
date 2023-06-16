@@ -9,7 +9,7 @@
 
 * Silvana 
 * [Ikram][https://github.com/ikramadam]
-* Nelly
+* [Nelly][https://github.com/NellyKaykay]
 * [Mnuel][https://github.com/Manuraptor]
  * [Telma][https://github.com/jutelma]
 

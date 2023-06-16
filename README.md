@@ -2,7 +2,7 @@
 
 amunt-p1-getfitapp-grupo2 
 <h1 aling="center">
-<img src="./C:\Users\nelly\OneDrive\Escritorio\GetFitEasy">
+<img src="./![alt text](http://url/to/getfiteasy.png)">
 </h1>
 
 

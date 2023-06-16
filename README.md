@@ -8,7 +8,7 @@
 # Desarollado por:
 
 * Silvana 
-* Ikram
+* [Ikram][https://github.com/ikramadam]
 * Nelly
 * [Mnuel][https://github.com/Manuraptor]
 

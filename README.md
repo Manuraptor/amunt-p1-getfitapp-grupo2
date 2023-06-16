@@ -9,7 +9,7 @@
 
 * [Silvana][https://github.com/silvanacinthia]
 * [Ikram][https://github.com/ikramadam]
-* [Nelly][https://github.com/NellyKaykay]
+* <img src=https://files.slack.com/files-tmb/T04Q2TFTGDQ-F05CVLYJANP-1884cd6b90/img_20221231_170003_720.jpg>[https://github.com/NellyKaykay]
 * [Mnuel][https://github.com/Manuraptor]
  * [Telma][https://github.com/jutelma]
 

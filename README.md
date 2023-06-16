@@ -10,7 +10,7 @@ amunt-p1-getfitapp-grupo2
 ***
 # Desarollado por:
 
-* Silvana Cinthia
+* Silvana 
 * Ikram
 * Nelly
 * Manuel 
@@ -43,7 +43,7 @@ Cuando se utilizan Svelte y Vite juntos, Vite se encarga de la construcción y e
 
 En resumen, la combinación de Svelte y Vite en un proyecto permite aprovechar las ventajas de ambos: la capacidad de desarrollo rápido y el rendimiento eficiente de Svelte, junto con la herramienta de construcción rápida y optimizada de Vite. Esto puede ayudar a agilizar el proceso de desarrollo y mejorar la eficiencia en la creación de aplicaciones web con Svelte.
 
-##  GETFITEASY
+# GETFITEASY
  Es un lugar que permite practicar deportes o hacer ejercicio en un recinto cerrado con varias máquinas y artículos deportivos a disposición de quienes lo visiten.
 El gimnasio es un espacio para trabajar el cuerpo, el bien más preciado, donde uno realiza los ejercicios de acuerdo a sus necesidades y condicionamiento físico.
 

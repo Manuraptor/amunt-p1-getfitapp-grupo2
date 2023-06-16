@@ -4,11 +4,11 @@
     import MainText from "./lib/Cover.svelte";
     import {Router, Link, Route} from "svelte-routing";
     import Login from "./lib/login.svelte";
-    
+    import Clientes from "./lib/Clientes.svelte";
     import Tarifas from "./lib/Tarifas.svelte";
     import {onMount} from "svelte";
    
-    
+
 
 
     onMount(() => {

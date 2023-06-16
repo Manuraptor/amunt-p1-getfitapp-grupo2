@@ -24,6 +24,7 @@
 * Javascript
 * Svelte + vite
 * Postman
+* PostgreSQL
 * Figma [https://www.figma.com/file/Epgy4eR1EGe5fIOTY1zEjb/GetFitEasy?type=design&node-id=0-1&t=CR58q4MDkluVU0Yk-0]
 * Canva[https://www.canva.com/design/DAFl99c5ITA/BW9cspXTNAL26Nz8okFNYA/edit]
  

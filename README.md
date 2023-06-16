@@ -11,8 +11,7 @@
 * [Ikram][https://github.com/ikramadam]
 * Nelly
 * [Mnuel][https://github.com/Manuraptor]
-
- * Telma 
+ * [Telma][https://github.com/jutelma]
 
 ## Tecnologías aplicadas
 

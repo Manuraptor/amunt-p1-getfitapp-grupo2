@@ -2,11 +2,11 @@
 
 
 <h1> GitFitEasy</h1>
-<img src="./.assets/imagenes/GetFitEasy.png">
-</h1>
+<img src = [image](https://github.com/Manuraptor/amunt-p1-getfitapp-grupo2/assets/126071398/f93317da-4ed4-4137-9e8c-6584a077c985)>
 
 
-# Project getfitapp-grupo2
+
+
 ***
 # Desarollado por:
 

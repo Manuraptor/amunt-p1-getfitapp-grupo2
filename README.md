@@ -9,7 +9,8 @@
 
 * [Silvana][https://github.com/silvanacinthia]
 * [Ikram][https://github.com/ikramadam]
-* [Nelly]<img src=![image](https://github.com/Manuraptor/amunt-p1-getfitapp-grupo2/assets/126071398/1537633f-4e7a-4aef-9afa-421711120654)
+* [Nelly]
+* <img src=![image](https://github.com/Manuraptor/amunt-p1-getfitapp-grupo2/assets/126071398/1537633f-4e7a-4aef-9afa-421711120654)
 (https://github.com/Manuraptor/amunt-p1-getfitapp-grupo2/assets/126071398/ad6672fd-7635-4db0-8f74-370f12d097b1)
 >[https://github.com/NellyKaykay]
 * [Mnuel][https://github.com/Manuraptor]

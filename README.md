@@ -9,9 +9,10 @@
 
 * [Silvana][https://github.com/silvanacinthia]
 * [Ikram][https://github.com/ikramadam]
-* [<img src=https://files.slack.com/files-tmb/T04Q2TFTGDQ-F05CVLYJANP-1884cd6b90/img_20221231_170003_720.jpg>][https://github.com/NellyKaykay]
+* <img src=![image](https://github.com/Manuraptor/amunt-p1-getfitapp-grupo2/assets/126071398/ad6672fd-7635-4db0-8f74-370f12d097b1)
+>[https://github.com/NellyKaykay]
 * [Mnuel][https://github.com/Manuraptor]
- * [Telma][https://github.com/jutelma]
+* [Telma][https://github.com/jutelma]
 
 ## Tecnologías aplicadas
 

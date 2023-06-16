@@ -9,8 +9,7 @@
 
 * [Silvana][https://github.com/silvanacinthia]
 * [Ikram][https://github.com/ikramadam]
-* [Nelly](https://github.com/Manuraptor/amunt-p1-getfitapp-grupo2/assets/126071398/ad6672fd-7635-4db0-8f74-370f12d097b1)
-* [https://github.com/NellyKaykay]
+* [Nelly][https://github.com/NellyKaykay]
 * [Manuel][https://github.com/Manuraptor]
 * [Telma][https://github.com/jutelma]
 

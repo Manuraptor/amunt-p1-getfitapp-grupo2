@@ -7,7 +7,7 @@
 ***
 # Desarollado por:
 
-* Silvana 
+* [Silvana][https://github.com/silvanacinthia]
 * [Ikram][https://github.com/ikramadam]
 * [Nelly][https://github.com/NellyKaykay]
 * [Mnuel][https://github.com/Manuraptor]

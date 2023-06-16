@@ -2,7 +2,7 @@
 
 
 <h1> GitFitEasy</h1>
-<img width=20% src = "https://github.com/Manuraptor/amunt-p1-getfitapp-grupo2/assets/126071398/f93317da-4ed4-4137-9e8c-6584a077c985" alt="">
+<img width=40% src = "https://github.com/Manuraptor/amunt-p1-getfitapp-grupo2/assets/126071398/f93317da-4ed4-4137-9e8c-6584a077c985" alt="">
 
 ***
 # Desarollado por:

@@ -2,7 +2,7 @@
 
 amunt-p1-getfitapp-grupo2 
 <h1 aling="center">
-<img src="./![alt text](http://url/to/getfiteasy.png)">
+<img src="./.assets/imagenes/GetFitEasy.png">
 </h1>
 
 
